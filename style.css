@@ -9,6 +9,7 @@
 }
 
 .header {
+    flex-direction: row;
     padding: 25px;
     background-color: coral;
     color: navy;
