@@ -9,10 +9,15 @@
 }
 
 .hero{
+    height: 800px;
+    width: 100%;
+    margin: 20px;
     background-image: url (https://www.visitwhitemountains.com/listing/castle-in-the-clouds/204/)
+    background-size: cover;
+    background-position: center;
 }
 
-    .header {
+.header {
     flex-direction: row;
     padding: 25px;
     background-color: coral;
