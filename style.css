@@ -8,6 +8,10 @@
     position: relative;
 }
 
+.link {
+    diplay: none;
+}
+
 .hero{
     height: 800px;
     width: 100%;
