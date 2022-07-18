@@ -1,18 +1,16 @@
-/*CSS Document*/
-
 * {
     box-sizing: border-box;
 }
-.html {
+/*.html {
     height: %
     position: relative;
-}
+}*/
 
 .link {
     diplay: none;
 }
 
-.hero{
+.hero-image {
     height: 800px;
     width: 100%;
     margin: 20px;
