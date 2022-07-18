@@ -19,13 +19,20 @@
     background-image: url (C:\Users\madel\Desktop\Classwork\feliciaspecs\castle in the clouds.jpg)
     background-size: cover;
     background-position: center;
+    border-color: rgb(244,133,93);
 }
 
 .header {
     flex-direction: row;
     padding: 25px;
-    background-color: coral;
+    background-color: rgb(255, 144, 103);
     color: navy;
+}
+
+.ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
 }
 
 .body {
@@ -40,6 +47,8 @@
 }
 
 .footer {
+    display: flex;
+    flex-direction: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+    font-size: 5px;
 }
