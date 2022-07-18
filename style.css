@@ -42,13 +42,24 @@
     height: 100%;
 }
 
+.verticalLine {
+    height: 100px;
+    border-left: 1px black;
+    position: absolute;
+    right: 10%;
+}
+
 .p {
+    font-size: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
-.footer {
+.list-links {
     display: flex;
-    flex-direction: center;
+    flex-direction: row;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 5px;
+    background-color: rgb(255, 144, 103);
+    color: navy;;
 }
