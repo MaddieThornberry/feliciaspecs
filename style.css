@@ -1,30 +1,39 @@
-* {
+/** {
     box-sizing: border-box;
-}
-/*.html {
-    height: %
-    position: relative;
 }*/
 
-.link {
-    diplay: none;
+.html {
+    height: %
+    position: relative;
 }
+
+/*.link {
+    diplay: none;
+}*/
 
 .hero-image {
     height: 800px;
     width: 100%;
     margin: 20px;
-    background-image: url (C:\Users\madel\Desktop\Classwork\feliciaspecs\castle in the clouds.jpg)
+    background-image: url (C:\Users\madel\Desktop\Classwork\feliciaspecs\castle.jpg)
     background-size: cover;
     background-position: center;
-    border-color: rgb(244,133,93);
+    border-color: rgb(12, 83, 81);
+}
+
+.hero-text{
+    color: rgb(12, 83, 81);
 }
 
 .header {
     flex-direction: row;
     padding: 25px;
-    background-color: rgb(255, 144, 103);
-    color: navy;
+    background-color: rgb(157, 150, 147);
+    color: rgb(12, 83, 81);
+}
+
+.ul li{
+    color: rgb(12, 83, 81);
 }
 
 .ul li {
@@ -38,11 +47,12 @@
     padding: 0;
     font-family: cursive, sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     height: 100%;
+    color: rgb(12, 83, 81);
 }
 
 .verticalLine {
     height: 100px;
-    border-left: 1px black;
+    border-left: 1px rgb(12, 83, 81);
     position: absolute;
     right: 10%;
 }
@@ -50,14 +60,15 @@
 .p {
     font-size: 25%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(12, 83, 81);
 
 }
 
-.list-links {
+.nav {
     display: flex;
     flex-direction: row;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 5px;
-    background-color: rgb(255, 144, 103);
-    color: navy;;
+    background-color: rgb(157, 150, 147);
+    color: rgb(12, 83, 81);
 }
