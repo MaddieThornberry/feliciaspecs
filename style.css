@@ -16,6 +16,7 @@ body {
     background-color: rgb(57, 59, 59);
     color: #ffffff;
     height: 75px;
+    border-radius: 5px 5px 0 0;
 }
 
 .header h1 {
@@ -49,6 +50,7 @@ a {
     background-image: url("mahdi-bafande.jpg");
     background-size: cover;
     background-position: center;
+    border-radius: 0 0 5px 5px;
 }
 
 #hero-text {
@@ -64,6 +66,7 @@ a {
 #about-myself, #my-resume, #my-portfolio {
     margin-left: 22px;
     margin-bottom: 20px;
+    border-radius: 5px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
