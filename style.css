@@ -139,6 +139,12 @@ p {
     max-width: 150px;
 }
 */
+
+.contact-info ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+
 .footer {
     padding: 30px;
     clear: both;
